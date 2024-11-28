@@ -1,17 +1,12 @@
-<script>
-	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
-</script>
-
 <header>
 	<div class="container">
-		<h1>My Portfolio</h1>
+		<h1>Shehin Dileep</h1>
 		<nav>
 			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</nav>
 	</div>

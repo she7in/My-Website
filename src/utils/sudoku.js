@@ -205,7 +205,7 @@ class Sudoku {
 			if (this.mat[i][j] !== 0) {
 				count--;
 				this.mat[i][j] = 0;
-				this.unfilledCells = { ...this.unfilledCells, [`${i}-${j}`]: { value: 0, valid: false } };
+				this.unfilledCells = { ...this.unfilledCells, [`${i}-${j}`]: { value: '', valid: false } };
 			}
 		}
 
